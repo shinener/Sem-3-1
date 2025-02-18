@@ -5,7 +5,7 @@ b = float(input("Hoyordoh too "))
 
 print("a + b =", function1.add(a, b))
 
-print("a - b =", function1.add(a, b))
+print("a - b =", function1.sub(a, b))
 
 print("a * b =", function2.multiply(a, b))
 
