@@ -1,11 +1,13 @@
-import function1
+import function1, function2, f3
 
-a = int(input("Ehnii too: "))
-b = int(input("Hoyordoh too "))
-
+a = float(input("Ehnii too: "))
+b = float(input("Hoyordoh too "))
 
 print("a + b =", function1.add(a, b))
 
-d = int(input("Ehnii too: "))
-e = int(input("Hoyordoh too "))
-print("d - e =", function1.add(d, e))
+print("a - b =", function1.add(a, b))
+
+print("a * b =", function2.multiply(a, b))
+
+print("a / b =", f3.divide(a, b))
+
